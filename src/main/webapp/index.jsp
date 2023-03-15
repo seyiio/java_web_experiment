@@ -13,6 +13,6 @@
 <a href="form.html">form</a>
 <a href="outputWordServlet">output</a>
 <a href="LastAccessservlet">LastAccessservlet</a>
-<a href="LoginServlet">LoginServlet</a>
+<a href="login.html">LoginServlet</a>
 </body>
 </html>

@@ -24,7 +24,7 @@ public class LoginServlet extends HttpServlet {
         if ("admin".equals(name) && "123".equals(pwd)) {
 //获得session对象
             HttpSession session = request.getSession();//在Session对象中保存记住登录的用户名
-            session.setAttribute("username ", name);//跳转到MainServlet
+            session.setAttribute("username", name);//跳转到MainServlet
             response.sendRedirect("MainServlet");
         } else {
             out.println("用户名/密码错误,3秒后返回登录页面! !! ");
